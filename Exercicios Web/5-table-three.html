@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Slide 99</title>
+    <style>
+      table{
+        border: 5px solid black;
+        padding: 7px;
+      }
+      th, tr, td{
+        padding: 10px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <form>
+        <tr>
+          <th colspan="2"> Formulário de Cadastramento </th>
+        </tr>
+        <tr>
+          <td> <label for="Nome"> Nome: </label> </td>
+          <td> <input type="text" name="Nome"/> </td>
+        </tr>
+        <tr>
+          <td> <label for="Endereço"> Endereço: </label> </td>
+          <td> <input type="text" name="Endereço"/> </td>
+        </tr>
+        <tr>
+          <td> <label for="Estado"> Estado: </label> </td>
+          <td> <select name="ufs">
+            <option value="al"> Alagoas </option>
+            <option value="ba"> Bahia </option>
+            <option value="ce"> Ceará </option>
+            <option value="ma"> Maranhão </option>
+            <option value="pb"> Paraíba </option>
+            <option value="pe"> Pernambuco </option>
+            <option value="pi"> Piauí </option>
+            <option value="rn"> Rio Grande do Norte </option>
+            <option value="se"> Sergipe </option>
+          </select> </td>
+        </tr>
+        <tr>
+          <td> <label for="sexo"> Sexo: </label> </td>
+          <td> <input type="radio" name="sexo" value="F"/> Feminino -
+            <input type="radio" name="sexo" value="M"/> Masculino </td>
+        </tr>
+        <tr>
+          <td> <label for="mp"> Matérias Preferidas: </label> </td>
+          <td> <input type="checkbox" name="mp" value="P"/> Português -
+            <input type="checkbox" name="mp" value="J"/> Java -
+            <input type="checkbox" name="mp" value="M"/> Matemática -
+            <input type="checkbox" name="mp" value="Php"/> Php </td>
+        </tr>
+        <tr>
+          <td> <label for="rdh"> Resumo de suas habilidades: </label> </td>
+          <td> <textarea name="name" rows="3" cols="30"></textarea> </td>
+        </tr>
+        <tr>
+          <td colspan="2"> <input type="submit" value="Enviar!"/> </td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
